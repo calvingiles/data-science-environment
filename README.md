@@ -5,8 +5,6 @@ Portable development environment for data analysis
 
 This defines a Dockerfile and related resources for building an ipython notebook server in a docker container capable of connecting to Adthena's databases, queues etc. and performing desired analysis.
 
-This provides **read-only** access to the MS SQL database.
-
 ## Installing
 ### Simple first time install
 
