@@ -22,7 +22,7 @@ $ $(boot2docker shellinit)
 * Run the setup script:
 
 ```
-python <( curl https://gist.githubusercontent.com/calvingiles/FIXME/raw/start_docker_env.py ) -p YourPassword
+python <( curl https://gist.githubusercontent.com/calvingiles/1a22eff678b9d11a457c/raw/start_data_science_env.py ) -p YourPassword
 ```
 
 ### Update your setup to latest
@@ -30,7 +30,7 @@ python <( curl https://gist.githubusercontent.com/calvingiles/FIXME/raw/start_do
 * Simply re-run the setup command above.
 
 
-Once the container has been started, navigatge to `http://localhost:443` or, if using boot2docker (i.e. on a mac), get your docker host with `boot2docker ip` and replace `localhost` with that. Login with the password you passed into the `start_ds_notebook.py` script
+Once the container has been started, navigatge to `http://localhost:443` or, if using boot2docker (i.e. on a mac), get your docker host with `boot2docker ip` and replace `localhost` with that. Login with the password you passed into the `start_data_science_env.py` script
 
 ## Debugging
 
